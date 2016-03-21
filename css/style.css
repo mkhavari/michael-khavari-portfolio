@@ -8,21 +8,28 @@ body {
 
 .introduction {
 	color: #6297A9;
-	max-width: 38em;
-	margin-left: 1em;
-	margin-right: 30em;
-}
-
-h1 {
-	
 }
 
 strong {
 	color: #00BFFF;
 }
 
+.photo {
+	background-image: url(../images/portfolio-background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 20em;
+}
 
-.overview,
+ul {
+	list-style: none;
+}
+
+.screencaps {
+	display: inline-block;
+}
+
+
 .contact {
 	max-width: 38em;
 	margin-left: auto;
