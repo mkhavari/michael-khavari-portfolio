@@ -6,23 +6,41 @@ body {
 	background-color: #013344;
 }
 
+.row:before,
+.row:after {
+	content: " ";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
+.row {
+	background-image: url(../images/portfolio-background.jpg);
+}
+.column-1 {
+	position: relative;
+	float: left;
+	width: 50%;
+}
+
+.column-2 {
+	position: relative;
+	float: left;
+	width: 50%;
+}
+
+
 .introduction {
 	color: #6297A9;
 	font-family: 'Candal', sans-serif;
 	font-size: 20px;
-	margin-left: 10px;
 	letter-spacing: 0.005em;
 }
 
 strong {
 	color: #00BFFF;
-}
-
-.photo {
-	background-image: url(../images/portfolio-background.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 20em;
 }
 
 ul {
@@ -36,6 +54,7 @@ ul {
 
 .portfolio {
 	font-family: 'Candal', sans-serif;
+	padding: 10px;
 }
 
 .portfolio > h1 {
@@ -60,7 +79,7 @@ a:visited {
 	color: #00FF67
 }
 
-!div {
+div {
 	border: 1px solid Chocolate;
 }
 
