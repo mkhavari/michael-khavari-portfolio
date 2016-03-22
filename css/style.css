@@ -17,18 +17,26 @@ body {
 }
 
 .row {
-	background-image: url(../images/portfolio-background.jpg);
+	border-bottom: 0.1em solid #3CF687;
+}
+
+.column {
+	display: inline-block;
+	position: relative;
 }
 .column-1 {
-	position: relative;
 	float: left;
-	width: 50%;
+	width: 35em;
+	padding-left: 1em;
 }
 
 .column-2 {
 	position: relative;
-	float: left;
-	width: 50%;
+	float: right;
+	width: 50em;
+	background-image: url(../images/portfolio-background.jpg);
+	background-size: cover;
+	height: 26em;
 }
 
 
@@ -79,10 +87,19 @@ a:visited {
 	color: #00FF67
 }
 
-div {
-	border: 1px solid Chocolate;
-}
-
 .picture {
 	margin: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+	.column-2 {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 520px) {
+	.introduction {
+		font-size: 0.5em;
+		padding: 0 0.5em;
+	}
 }
