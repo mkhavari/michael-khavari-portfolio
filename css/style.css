@@ -8,6 +8,10 @@ body {
 
 .introduction {
 	color: #6297A9;
+	font-family: 'Candal', sans-serif;
+	font-size: 20px;
+	margin-left: 10px;
+	letter-spacing: 0.005em;
 }
 
 strong {
@@ -25,13 +29,41 @@ ul {
 	list-style: none;
 }
 
+.icons > li,
 .screencaps {
 	display: inline-block;
 }
 
+.portfolio {
+	font-family: 'Candal', sans-serif;
+}
 
+.portfolio > h1 {
+	text-shadow: 2px 2px #008636;
+}
+
+.portfolio,
+.contact {
+	color: #00FF67;
+	text-align: center;
+
+}
 .contact {
 	max-width: 38em;
 	margin-left: auto;
 	margin-right: auto;
+	font-family: 'Indie Flower', sans-serif;
+}
+
+a,
+a:visited {
+	color: #00FF67
+}
+
+!div {
+	border: 1px solid Chocolate;
+}
+
+.picture {
+	margin: 10px;
 }
